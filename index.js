@@ -5,7 +5,7 @@ const fs = require('fs');
 exports.download = function(url,fileName,callback){
     var req = request({
                     method: 'GET',
-                    uri : musicUrl
+                    uri : url
                 });
                 req.pipe(fs.createWriteStream(fileName));
                 req.on( 'response', function ( res ) {
