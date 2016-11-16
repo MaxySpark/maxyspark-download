@@ -18,6 +18,8 @@ function endFunc() {
 maxDonwload.download(url,filename,endFunc());
 ```
 
+###Options
+
 #####`url` download url
 #####`filename` name of the file to be download with file extension
 #####`endFunc()` callback function to run after complete the download
