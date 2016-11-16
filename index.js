@@ -2,7 +2,7 @@ const ProgressBar = require('progress');
 const request = require('request');
 const fs = require('fs');
 
-exports.maxDownload = function(url,fileName,callback){
+exports.download = function(url,fileName,callback){
     var req = request({
                     method: 'GET',
                     uri : musicUrl
