@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/MaxySpark/maxyspark-download/issues"
   },
-  "homepage": "https://github.com/MaxySpark/maxyspark-download#readme"
+  "homepage": "https://github.com/MaxySpark/maxyspark-download#readme",
+  "dependencies": {
+    "progress": "^1.1.8",
+    "request": "^2.78.0"
+  }
 }
