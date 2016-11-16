@@ -24,7 +24,9 @@ exports.download = function(url,fileName,callback){
                         bar.tick(chunk.length);
                     });
                     
-                    res.on('end', callback);
+                    res.on('end', function(){
+                        callback;
+                    });
                 });
 
 }

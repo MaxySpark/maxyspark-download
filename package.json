@@ -1,6 +1,6 @@
 {
   "name": "maxyspark-download",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "npm module to download file",
   "main": "index.js",
   "scripts": {
