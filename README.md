@@ -7,8 +7,7 @@ npm module for download file
 
 ###Uses 
 
-```
-const maxDonwload = require('maxyspark-download');
+```const maxDonwload = require('maxyspark-download');
 var filename = "prog.gif";
 var url = "http://skillprogramming.com/images/pictuers/how_many_of_you_get_the_same_feeling.gif";`
 function endFunc() {
