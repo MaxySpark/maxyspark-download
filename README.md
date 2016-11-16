@@ -1,6 +1,6 @@
 # maxyspark-download
 npm module for download file
-
+#####dependencies `request` and `progrss`
 ###Installation
 
 ####`npm install maxyspark-download`
