@@ -21,7 +21,7 @@ maxDonwload.download(url,filename,endFunc);
 
 ###Output
 
-```javascript
+```txt
 File Size : 0.50 MB
 
   downloading [====================] 100% 0.0s
