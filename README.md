@@ -18,6 +18,16 @@ function endFunc() {
 maxDonwload.download(url,filename,endFunc);
 ```
 
+
+###Output
+
+```javascript
+File Size : 0.50 MB
+
+  downloading [====================] 100% 0.0s
+download completed : prog.gif
+
+```
 ###Options
 
 #####`url` - download url
